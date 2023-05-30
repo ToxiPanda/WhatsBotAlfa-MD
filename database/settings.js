@@ -31,7 +31,7 @@ module.exports = {
   PACKNAME: req.config.PACKNAME  === "" ? "Aurora" :  req.config.PACKNAME ,
   WELCOME_MSG: req.MESSAGE_MEM.WELCOME_MSG  === "" ? "Hi @user Welcome to @gname" : req.MESSAGE_MEM.WELCOME_MSG,
   GOODBYE_MSG: req.MESSAGE_MEM.GOODBYE_MSG  === "" ? "Hi @user It was Nice Seeing you" : req.MESSAGE_MEM.GOODBYE_MSG,
-  AUTHOR: req.config.AUTHOR  === "" ? "Alien-Alfa" :  req.config.AUTHOR,
+  AUTHOR: req.config.AUTHOR  === "" ? "Toxic-Panda" :  req.config.AUTHOR,
   SUDO: req.config.SUDO  === "" ? "" :  req.config.SUDO,
   HEROKU_APP_NAME: req.config.HEROKU_APP_NAME  === "" ? "^" :  process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: req.config.HEROKU_API_KEY  === "" ? "^" :  process.env.HEROKU_API_KEY,
@@ -45,7 +45,7 @@ module.exports = {
   MENTION_IMG: req.config.MENTION_IMG  === undefined || "" ? "https://i.imgur.com/0IaPsiM.jpeg,https://i.imgur.com/MIJv3kT.jpeg" : req.config.MENTION_IMG,
   MENTION: req.settings.MENTION  === [] || undefined ? false : req.settings.MENTION,
 
-  FOOTER:  req.config.FOOTER  === "" ?  "Alien-Alfa" : req.config.FOOTER,
+  FOOTER:  req.config.FOOTER  === "" ?  "Toxic-Panda" : req.config.FOOTER,
   THEME: req.config.THEME  === "" ?  "alfa" : req.config.THEME,
   FONT_STYLE: req.config.FONT_STYLE  === "" ? "1" : req.config.FONT_STYLE,
   LANGUAGE: req.config.LANGUAGE  === "" ? "EN" :  req.config.LANGUAGE, 
