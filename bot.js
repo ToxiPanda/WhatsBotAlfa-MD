@@ -81,7 +81,7 @@ async function AlienAlfa() {
 
     const { connection, lastDisconnect } = s;
     if (connection === "connecting") {
-      console.log("Alien-Alfa");
+      console.log("Toxic-Panda");
       console.log("⭕ Starting Connection to WhatsApp...");
     }
     if (connection === "open") {
