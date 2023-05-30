@@ -220,7 +220,7 @@ else { prefix = HANDLERS }
 
 const html = fs.readFileSync("./Alien/check.html")
 app.get("/", (req, res) => res.type('html').send(html));
-app.listen(port, () => console.log(`AlienAlfa Server listening on port http://localhost:${port}!`));
+app.listen(port, () => console.log(`ToxicPanda Server listening on port http://localhost:${port}!`));
 
 setTimeout(() => {
   AlienAlfa().catch((err) => console.log(err));
